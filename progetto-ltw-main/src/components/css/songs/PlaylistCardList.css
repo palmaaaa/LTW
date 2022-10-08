@@ -1,0 +1,13 @@
+.x-scrollable-row {
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+}
+
+.x-scrollable-col {
+    display: inline-block;
+    float: none;
+}
+
+

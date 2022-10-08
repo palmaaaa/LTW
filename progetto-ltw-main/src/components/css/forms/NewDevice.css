@@ -1,0 +1,13 @@
+.new-device-text-container {
+    text-align: center;
+}
+
+.add-device-button {
+    background-color: var(--color-blog);
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#new-device-input {
+    color: black;
+}

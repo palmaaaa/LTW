@@ -1,0 +1,19 @@
+.logo {
+    width: 45px;
+}
+
+
+
+.brand-name {
+    font-weight: bold;
+    color: var(--color-subtext);
+}
+
+
+@media screen and (max-width: 992px) and (min-width: 764px) {
+    #sidenav-header .h4 {
+        font-size: 20px;
+    }
+
+}
+

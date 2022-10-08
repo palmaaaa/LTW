@@ -1,0 +1,59 @@
+.music-player-bar{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    height: 3px;
+    transform: translate(15%);
+
+    background-color: grey;
+    background-position-x: -20px;
+}
+
+.progress-bar{
+    margin: 0;
+    padding: 0;
+    width: 0%;
+    background-color: whitesmoke;
+}
+
+.timestamps{
+    width: 80%;
+    transform: translate(15%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-bar:hover{
+    background-color: yellow;
+}
+
+@media screen and (min-width: 768px) {
+    .timestamps {
+        width: 85%;
+    }
+
+    .music-player-bar {
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .timestamps {
+        width: 95%;
+    }
+
+    .music-player-bar {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .timestamps {
+        width: 75%;
+    }
+
+    .music-player-bar {
+        width: 75%;
+    }
+}

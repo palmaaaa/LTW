@@ -1,0 +1,16 @@
+.playlist-view-title {
+    --color-text: var(--color-highlight);
+    font-family: var(--font-family);
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.playlist-view-container {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0067c6+0,1b1c31+47 */
+    background: #0067c6; /* Old browsers */
+    background: -moz-linear-gradient(top,  #0067c6 0%, #1b1c31 47%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #0067c6 0%,#1b1c31 47%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #0067c6 0%,#1b1c31 47%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0067c6', endColorstr='#1b1c31',GradientType=0 ); /* IE6-9 */
+
+}

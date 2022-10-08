@@ -1,0 +1,14 @@
+.songUpload{
+    position: relative;
+    top:20%;
+    /*background-color: rgba(255,0,50,0.2);*/
+    background-color: transparent;
+}
+
+.uploadSongContainer{
+    background: linear-gradient(to bottom, #0067c6 0%,#002e6b 38%,#1b1c31 56%,#7db9e8 56%,#13131f 56%,#13131f 56%,#1b1c31 56%,#002e6b 72%,#0067c6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0067c6', endColorstr='#0067c6',GradientType=0 ); /* IE6-9 */
+
+
+}
+

@@ -1,0 +1,15 @@
+.dropdown-menu-wave{
+    position: absolute;
+    /*transform : translate(-30px) ;*/
+    width: 170px;
+    background-color:  var(--color-footer);
+    padding: 0;
+    margin-bottom: 0;
+    border: 2px solid var(--color-footer);
+    border-radius: 8px;
+}
+
+.drop-down-wave-hr:last-child{
+    visibility: hidden;
+    display: none;
+}

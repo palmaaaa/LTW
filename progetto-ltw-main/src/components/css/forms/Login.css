@@ -1,0 +1,41 @@
+
+.login-w{
+    width: 50%;
+}
+
+.waveshareText h1{
+    font-family: var(--font-family);
+    color: yellow;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.waveshareText p{
+    font-family: var(--font-family);
+    font-style: italic;
+}
+
+.waveshareText{
+    margin-top: 1rem;
+}
+
+.login-center-elements {
+    display: flex;
+    justify-content: center;
+}
+
+.register-btn{
+    background-color: var(--color-blog);
+}
+
+.register-btn:hover{
+    color: black;
+    background-color: rgba(231, 245, 39,0.8);
+}
+
+.waveshare-signup-text{
+    color: white;
+    border: none;
+    background: none;
+    fontWeight: 550;
+}

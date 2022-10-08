@@ -1,0 +1,44 @@
+.song-row {
+    height: 65px;
+    text-align: start;
+    border-radius: 5px;
+    background-color: var(--color-footer);
+    cursor: pointer;
+}
+
+.song-row:hover {
+    background-color: rgb(38, 38, 61);
+    /*background-color: var(--color-bg);    */
+}
+
+.song-cover-icon {
+    height: 40px;
+    width: 40px;
+}
+
+.song-more-icon {
+    width: 20px;
+}
+
+.song-like-icon{
+    width: 20px;
+}
+
+.song-icon-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.song-info-text {
+    margin: 0;
+    font-size: 15px;
+}
+
+.song-name-text {
+    font-weight: 600;
+    color: var(--color-subtext);
+}

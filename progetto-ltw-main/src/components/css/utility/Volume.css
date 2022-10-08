@@ -1,0 +1,34 @@
+.music-volume-bar{
+    display: flex;
+    background-color: grey;
+    width: 70%;
+    height: 3px;
+    padding-left: 3rem;
+}
+
+.progress-bar-volume{
+    width: 50%;
+    background-color: whitesmoke;
+}
+
+.progress-bar-volume:hover{
+    background-color: yellow;
+}
+
+@media screen and (min-width: 768px) {
+    .music-volume-bar {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .music-volume-bar {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .music-volume-bar {
+        width: 60%;
+    }
+}

@@ -1,0 +1,18 @@
+.song-list-title {
+    --color-text: var(--color-highlight);
+    font-family: var(--font-family);
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.song-list-view-container {
+    /*background: linear-gradient(#0067c6, #1B1C31)*/
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0067c6+0,1b1c31+45 */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0067c6+0,1b1c31+28 */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0067c6+0,1b1c31+16 */
+    background: linear-gradient(to bottom,  #0067c6 0%,#1b1c31 200px); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-size: 100vh;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0067c6', endColorstr='#1b1c31',GradientType=0 ); /* IE6-9 */
+}
+

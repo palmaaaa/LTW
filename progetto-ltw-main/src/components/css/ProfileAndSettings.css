@@ -1,0 +1,42 @@
+.profile-settings-container {
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    z-index: 999;
+}
+
+
+
+.settings-button-icon {
+    color: #7e788c;
+}
+
+.profile-picture-icon {
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.list-options-profile{
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    justify-content: left;
+    visibility: hidden;
+    background-color:  var(--color-footer);
+}
+
+.option-element{
+    color: var(--color-subtext);
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+.option-element:hover{
+    background-color: dimgrey;
+    border-radius: 5px;
+}

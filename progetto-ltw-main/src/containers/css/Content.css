@@ -1,0 +1,35 @@
+#content-container {
+    left: var(--sidenav-width);
+    width: calc(100% - var(--sidenav-width) + 4px); /* paraculata border */
+    height: 100%;
+    position: absolute;
+    transition: var(--transition-sidenav);
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: var(--color-bg);
+    padding: 0;
+    scroll-behavior: auto;
+    /*background-color: #F5DF4D;*/
+}
+
+@media screen and (max-width: 768px) {
+    #content-container {
+        left: 0;
+        width: calc(100% + 4px);
+    }
+
+}
+
+
+body.active #content-container {
+    left: 0;
+    width: 100%;
+}
+
+
+
+#content-footer {
+    height: var(--playbar-height);
+}
+
+

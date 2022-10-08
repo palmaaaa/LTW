@@ -1,0 +1,20 @@
+
+.create-artist-mg-positioning{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.createArtistContainer{
+    height: calc(100% - var(--playbar-height));
+    background: -webkit-linear-gradient(top, #0067c6 0%,#002e6b 38%,#1b1c31 56%,#7db9e8 56%,#13131f 56%,#13131f 56%,#1b1c31 56%,#002e6b 72%,#0067c6 100%); /* Chrome10-25, Safari5.1-6 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0067c6', endColorstr='#0067c6',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .create-artist-mg-positioning {
+        justify-content: center;
+    }
+}

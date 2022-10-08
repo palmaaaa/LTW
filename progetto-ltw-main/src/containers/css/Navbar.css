@@ -1,0 +1,69 @@
+
+.sidenav-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /*top: 0;*/
+    /*left: 0;*/
+    width: var(--sidenav-width);
+    height: calc(100% - var(--playbar-height));
+    align-content: flex-start;
+    background-color: var(--color-bg);
+    z-index: 1;
+    border-right: var(--border-style);
+    overflow-y: visible;
+    overflow-x: hidden;
+    transition: var(--transition-sidenav);
+}
+
+body.active .sidenav-container {
+    margin-left: var(--margin-left-sidenav);
+}
+
+.sidenav-container hr {
+    width: var(--sidenav-width);
+    position: relative;
+    right: 24px;
+}
+
+.toggle-sidenav {
+    position: absolute;
+    left: calc(var(--sidenav-width) - 22px);
+    top: 18px;
+    border-radius: 50px;
+    background-color: rgba(19, 19, 31, 0.7);
+    transition: var(--transition-sidenav);
+    outline: none!important;
+    box-shadow: none!important;
+    z-index: 999;
+}
+
+body.active .toggle-sidenav {
+    margin-left: calc(var(--margin-left-sidenav) + 30px);
+}
+
+
+.toggle-sidenav:hover i{
+    color: white!important;
+}
+
+.sidenav-options {
+    font-size: 13px;
+}
+
+
+.sidenav-options-title {
+    font-weight: bold;
+    color: var(--color-subtext);
+}
+
+@media screen and (max-width: 992px) {
+    .sidenav-container hr {
+        right: 8px; /* i wont ask why this is working */
+    }
+
+}
+
+
+
+

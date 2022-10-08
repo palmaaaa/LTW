@@ -1,0 +1,17 @@
+.waveshare-row {
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.register-btn{
+    background-color: var(--color-blog);
+}
+
+.register-btn:hover{
+    color: black;
+    background-color: rgba(231, 245, 39,0.8);
+}
+
+.scrollable-content{
+    overflow: hidden auto;
+}

@@ -1,0 +1,22 @@
+.device{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.btn933{
+    margin: 0 0 0 2rem;
+    background-color: darkred;
+}
+
+.btn933:hover{
+    background-color: darkred;
+}
+
+.btn933:focus{
+    background-color: red;
+}
+
+.device-name{
+    padding: 0;
+    margin: 4px 0 4px 0;
+}

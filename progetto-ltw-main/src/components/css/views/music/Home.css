@@ -1,0 +1,47 @@
+.home-container {
+    background-image: url('../../../../assets/img/nayt-gradient.png');
+    background-repeat: no-repeat;
+    background-size: auto 55vh;
+    background-position-x: right;
+}
+
+.home-slogan {
+    --color-text: var(--color-highlight);
+    font-family: var(--font-family);
+    font-size: 60px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 750px) {
+    .home-slogan {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .home-slogan {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home-slogan {
+        font-size: 30px;
+    }
+}
+
+.home-header-container {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+}
+
+.home-slogan-container {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.home-top-music-text {
+    color: var(--color-subtext);
+    font-weight: 700;
+}

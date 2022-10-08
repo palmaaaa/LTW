@@ -1,0 +1,90 @@
+.spacedOutRow{
+    margin-bottom: 4rem;
+}
+
+.bioTitle{
+    color: var(--color-highlight);
+}
+
+.saveBtn{
+    background-color: #AE67FA;
+    color: whitesmoke;
+}
+
+.saveBtn:hover{
+    background-color: #AE67FA;
+    color: black;
+}
+
+.addBtn{
+    background-color: green;
+    font-size: small;
+}
+
+.addBtn:hover{
+    background-color: darkgreen;
+}
+
+.addBtn:focus{
+    background-color: darkgreen;
+    border-color: whitesmoke;
+}
+
+@media screen and (max-width: 766px) {
+
+    .mask div{
+        visibility: visible;
+    }
+
+    .mask{
+        background-color: rgba(0,0,0,0.6);
+    }
+}
+
+/*.imgToEdit{*/
+/*    border-radius: 250px;*/
+/*}*/
+
+/*.innerImg{*/
+/*    border-radius: 250px;*/
+/*}*/
+
+/*.mask{*/
+/*    !*visibility: hidden;*!*/
+/*    position: absolute;*/
+/*    background-color: transparent;*/
+/*    width: 250px;*/
+/*    height: 200px;*/
+/*    border-radius: 200px;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    z-index: 1;*/
+
+/*}*/
+
+/*.mask:hover{*/
+/*    background-color: rgba(0,0,0,0.6);*/
+/*}*/
+
+/*.mask div{*/
+/*    visibility: hidden;*/
+/*}*/
+
+/*.mask:hover div{*/
+/*    visibility: visible;*/
+/*}*/
+
+/*.textMask{*/
+/*    position: relative;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    top: 45%;*/
+/*}*/
+
+/*.transpBtn{*/
+/*    color: var(--color-subtext);*/
+/*    font-weight: 600;*/
+/*    background-color: transparent;*/
+/*    border: none;*/
+/*}*/

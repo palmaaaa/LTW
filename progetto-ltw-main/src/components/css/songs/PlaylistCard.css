@@ -1,0 +1,47 @@
+.playlist-card-container {
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+    width: 180px;
+    cursor: pointer;
+}
+
+
+.playlist-card-image {
+    box-shadow: 3px 3px 6px 3px rgba(79, 79, 91, 0.1);
+    border-radius: 15px;
+}
+
+.playlist-card-name {
+    color: var(--color-subtext);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.playlist-card-authorName {
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 576px) {
+
+    .playlist-card-container {
+        width: 140px;
+    }
+
+    .playlist-card-name {
+        font-size: 1rem;
+    }
+
+    .playlist-card-authorName {
+        font-size: 0.8rem;
+    }
+}
+
+.playlist-card-container:hover h5, .playlist-card-container:hover p {
+    text-decoration: underline;
+}
+
+.playlist-card-container:hover img {
+    border: medium solid rgba(148, 167, 175, 0.3);
+    /*outline: medium solid rgba(148, 167, 175, 0.3);*/
+}

@@ -1,0 +1,42 @@
+.artist-name{
+    font-family: var(--font-family);
+    text-align: start;
+    font-weight: 400;
+    color:var(--color-highlight);
+}
+
+.info-artist{
+    color:var(--color-subtext);
+}
+
+.profile-view-profile-picture{
+    color:var(--color-highlight);
+    font-weight: 1900;
+    border:none;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    /*background-image: url("../../../../assets/img/default-profile-picture.jpg") ;*/
+}
+
+.profile-view-profile-picture:hover{
+    /*mask-type: alpha    ;*/
+    /*mask-position: top;*/
+    /*mask-image: linear-gradient(to top, transparent 36%, red);*/
+    /*transition: opacity 12s;*/
+    -webkit-background-clip: text;
+}
+
+.profile-add-playlist-button {
+    height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    color: black;
+    font-weight: bold;
+    background-color: var(--color-subtext);
+    outline: var(--color-subtext);
+    padding: 0 10px 0 10px;
+
+}

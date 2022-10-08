@@ -1,0 +1,26 @@
+.sidenav-option-logo {
+    max-height: 30px;
+    max-width: 25px;
+}
+
+.sidenav-option-row {
+    border-radius: 5px;
+}
+
+
+.sidenav-option-row:hover {
+    color: rgba(255, 255, 255, 1);
+    opacity: 1;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgba(19, 19, 31, 0.5);
+}
+
+.sidenav-option-row:hover .sidenav-option-logo{
+    filter: brightness(0) invert(1);
+}
+
+.sidenav-option-logo:hover {
+    filter: brightness(0) invert(1);
+}
+
