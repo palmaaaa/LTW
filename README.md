@@ -8,4 +8,4 @@ Our project is called WaveShare. It's a web App similar to Spotify developed usi
 For the front-end we used Bootstrap, JavaScript, Css and Html.
 
 # ⌨ Back-end
-For the back-end we initially used Java and then switched to Php.
+For the back-end we initially used Java and then switched to Php (mini PHP REST API).
